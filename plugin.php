@@ -49,7 +49,7 @@ add_action('breakdance_loaded', function () {
 
 // Info o brakujących zależnościach
 add_action('admin_notices', function () {
-    if ( !\is_plugin_active('breakdance/breakdance.php') ) {
+    if ( !\is_plugin_active('breakdance/plugin.php') ) {
         echo '<div class="notice notice-error"><p><strong>ZHP Starter Kit:</strong> Zainstaluj i aktywuj wymagane wtyczki: Breakdance i ZHP Custom Elements.</p></div>';
     }
 });
