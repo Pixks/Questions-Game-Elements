@@ -64,6 +64,6 @@ add_action('admin_notices', function () {
 $updateChecker = PucFactory::buildUpdateChecker(
     'https://github.com/Pixks/Questions-Game-Elements',
     __FILE__,
-    'pixks-questions-game-elements' // ← PODMIEŃ na dokładny slug folderu wtyczki
+    'pixks_questions-game-elements' // ← PODMIEŃ na dokładny slug folderu wtyczki
 );
 $updateChecker->setBranch('main');
