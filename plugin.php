@@ -4,7 +4,7 @@
  * Description: A set of Breakdance elements supporting the creation of an interactive game based on QR codes.
  * Author: Pixks
  * License: GPLv2
- * Version: 0.0.3
+ * Version: 0.0.4
  * Requires Plugins: breakdance
  */
 
